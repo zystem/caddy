@@ -38,5 +38,6 @@ import (
 )
 
 func main() {
+	fmt.Println("webdav module registered:", webdav.CaddyModule().ID)
 	caddycmd.Main()
 }
